@@ -1,0 +1,10 @@
+##Excercise 3-1
+def right_justify(s):
+    space = 70-len(s)
+    justify = (space*' ')+s
+    print(justify)
+
+right_justify('book')
+
+
+##Excercise 3-2
