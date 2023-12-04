@@ -6,5 +6,11 @@ def right_justify(s):
 
 right_justify('book')
 
+##Alt 3-1
+def right_justify(s):
+    justify=' '*(70-len(s))+s
+    print(justify)
+
+right_justify('monty')
 
 ##Excercise 3-2
